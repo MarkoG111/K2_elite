@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <meta name="description" content="Lokacija našeg kluba" /> 
+  <meta name="keywords" content="K2, Elit, klub, događaji, žurke, izlasci, lokacija, mesto, ulica, grad, broj" /> 
+  <meta name="author" content="Marko Gačanović" />
+  <title>K2 Elite</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="shortcut icon" href="images/favicon.ico" type="image/x-ico" />
+</head>
+
+<body>
+  <div id="container">
+    <header>
+      <div id="top_image"></div>
+      <div id="header_image"></div>
+      <div id="bottom_image"></div>
+    </header>
+    <main>
+      <div id="c_header">
+        <a href="rss.xml" id="rss">
+          <img src="images/rss_ico.png" alt="rss" title="RSS" />
+        </a>
+        <a href="robots.txt" id="robots">
+          <img src="images/robots_ico.png" alt="robots" title="robots" />
+        </a>
+        <a href="sitemap.xml" id="sitemap">
+          <img src="images/sitemap.png" alt="sitemap" title="sitemap" />
+        </a>
+      </div>
+      <section id="location">
+        <h1>Nalazimo se na sledećoj lokaciji</h1>
+        <div class="mapouter">
+          <div class="gmap_canvas">
+            <iframe width="500" height="400" id="gmap_canvas" src="https://maps.google.com/maps?q=Takovska%2088&t=&z=15&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0">
+            </iframe>
+            <a href="https://www.embedgooglemap.net/blog/20-off-discount-for-elegant-themes-divi-sale-coupon-code-2019/">elegant themes</a>
+          </div>
+        </div>
+        <dl>
+          <dt>Ulica i broj:</dt>
+            <dd>Takovska 88</dd>
+          <dt>Poštanski broj:</dt>
+            <dd>32300</dd>
+          <dt>Grad:</dt>
+            <dd>Gornji Milanovac</dd>
+          <dt>Telefon:</dt>
+            <dd>+381 63 80 90 501</dd>
+          <dt>Email:</dt>
+            <dd>info@k2.elite.caffe</dd>
+        </dl>
+        <div class="clear"></div>
+      </section>
+      <div id="c_footer"></div>
+    </main>
+    <aside>
+      <nav>
+        <div id="l_header"></div>
+        <ul id="l_menu">
+            <li><a href="index.html">Početna</a></li>
+            <li><a href="about.html">O nama</a></li>
+            <li><a href="contact.html">Kontakt</a></li>
+            <li><a href="location.html" class="active">Lokacija</a></li>
+            <li><a href="gallery.html">Galerija</a></li>
+            <li><a href="author.html">O autoru</a></li>
+        </ul>
+        <div id="l_footer"></div>
+      </nav>
+      <table>
+        <form action="#" method="GET">
+          <tr>
+            <th colspan="2">Da li vam se sviđa logo?</th>
+          </tr>
+          <tr>
+            <td align="center">
+              <input type="radio" name="answer" id="yes" value="yes" /> Da &nbsp;&nbsp;
+              <input type="radio" name="answer" id="no" value="no" /> Ne
+            </td>
+          </tr>
+          <tr>
+            <td rowspan="2">
+              <img src="images/K2_logo.png" alt="logo" id="logo" />
+            </td>
+          </tr>
+          <tr></tr>
+          <tr>
+            <td colspan="2" align="center">
+              <input type="submit" name="pollSubmit" id="pollSubmit" value="Odgovor" />
+            </td>
+          </tr>
+        </form>
+      </table>
+    </aside>
+    <div class="clear"></div>
+    <footer>
+      <p>Copyright &copy; K2 Elite 2019. Designed by Marko Gačanović.</p>
+    </footer>
+  </div>
+</body>
+
+</html>

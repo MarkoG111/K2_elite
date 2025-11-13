@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0">
+<channel>
+  <title>K2 Elite klub</title>
+  <link>http://www.k2-elite.com</link>
+  <description>Ovo je sajt o klubu K2 u Gornjem Milanovcu</description>
+
+  <item>
+    <title>Najbolji fotograf u gradu</title>
+    <link>http://www.k2-elite.com/gallery.html</link>
+    <description>Fotograf Petar Jović za sve vaše zahteve</description>
+  </item>
+  <item>
+    <title>Autor sajta o K2 Elite</title>
+    <link>http://www.k2-elite.com/author.html</link>
+    <description>Autor se zove Marko Gačanović, rođen 30.07.1997.</description>
+  </item>
+</channel>
+</rss>
